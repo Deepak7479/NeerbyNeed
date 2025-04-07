@@ -1,0 +1,51 @@
+/* src/pages/Home.css */
+.hero {
+    height: 100vh;
+    background-image: url('path-to-your-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .content button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content button:hover {
+    background-color: #e65c00;
+  }
+  

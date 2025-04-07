@@ -1,0 +1,16 @@
+/* src/pages/Services.css */
+.services {
+    padding: 2rem;
+  }
+  
+  .services h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
